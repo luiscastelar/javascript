@@ -3,4 +3,6 @@
 ## Variables
 Las [variables](01_variables_sin_declarar.js)
 
-Y la [consola](01b_console.js)
+La [consola](01b_console.js)
+
+El [try - catch](01c_try-catch.js)
