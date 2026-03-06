@@ -3,7 +3,7 @@
 
 + [Día 1](dia_01/README.md)
 + [Día 2](dia_02/README.md)
-+ [Día 3]
++ [Día 3](dia_03/README.md)
 + [Día 4]
 + [Día 5]
 + [Día 6]
