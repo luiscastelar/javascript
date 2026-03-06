@@ -1,49 +1,18 @@
 # Javascript
+... ¿en 21 días?
 
-## Desarrollo y depuración
++ [Día 1](dia_01/README.md)
++ [Día 2](dia_02/README.md)
++ [Día 3]
++ [Día 4]
++ [Día 5]
++ [Día 6]
+...
 
-Instalar plugins para desarrollo: ESLint, Live Server, Project Manager
+## Retos
 
-### ESLint
-#### Instalación
-```bash
-npm install eslint --save-dev
-npx eslint --init
-```
-
-#### Configuración
-Añadiremos el archivo `eslint.config.mjs` en la raíz del proyecto:
-```json
-import js from "@eslint/js";
-import globals from "globals";
-import { defineConfig } from "eslint/config";
-
-export default defineConfig([
-    { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.browser } },
-    {
-        "rules": {
-            "no-unused-vars": "off",
-            "no-extra-semi": "error",
-            "eqeqeq": "error",
-            "camelcase": "error",
-            "semi": ["error", "always"],
-            "quotes": "error",
-            "indent": "error",
-            "array-bracket-spacing": "error",
-            "arrow-spacing": "error"
-        }
-    }
-]);
-```
-
-#### Ejecución
-```bash
-npx eslint --ext "js/recommended" --fix .
-```
-
-## Variables
-Las [variables](01_variables_sin_declarar.js)
-
-La [consola](01b_console.js)
-
-El [try - catch](01c_try-catch.js)
++ Lista de tareas
++ Calculadora
++ 3 en raya
++ Conecta 4
++ Tetris binario
