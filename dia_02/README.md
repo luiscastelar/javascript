@@ -10,6 +10,6 @@ Añadiendo legibilidad al código mediante plantillas de texto.
 
 
 ## Funciones
-[Teoría](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/T5_Javascript/2_funciones)
+[Teoría](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/2_funciones/)
 
 _IMPORTANTE: Este punto es uno de los más diferentes a los métodos en Java, por lo que se requier el alumnado requerirá el **estudio** detallado del mismo._ ➡️ NO podrán usarse chuletas de esta parte en el examen.
