@@ -15,6 +15,3 @@
 ## Ejercicios
 + [A practicar](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/#ejercicios)
 + [Soluciones](03e_ejercicios.js)
-
-## OBJETOS y clases
-[6 modos de crear objetos](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/6_objetos)
