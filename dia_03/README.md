@@ -7,6 +7,7 @@
 ## Tipos
 + [Tipos de datos](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/4_tipos_de_datos)
 + [Ejemplos](03b_datos_primitivos.js)
++ [Ejemplos de cohercion](03c_cohercion.js)
 
 ## Operadores
 + [Los normales y los modernos](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/5_operadores)
