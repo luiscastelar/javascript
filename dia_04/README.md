@@ -1,4 +1,4 @@
-# Día 4: OBJETOS y clases
+# Día 4: OBJETOS y clases... y estructurada
 
 ## OBJETOS y clases
 [6 modos de crear objetos](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/6_objetos)
@@ -15,3 +15,7 @@ La forma clásica de trabajar:
 
 ## Ejercicios
 + [Ejercicios](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/9_ejercicios/)
++ [Ejercicio avanzado](04d_ejercicios_avanzados.js)
+
+### Ejercicios de arrays y matrices
++ [Ejercicios](https://apuntes.luis-ferreira.es/lmsgi/T5_Javascript/10_arrays_clasico/)
