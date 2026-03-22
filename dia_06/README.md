@@ -1,25 +1,21 @@
 # Día 6: Selección de elementos
 
-Antes de comenzar la parte interesante, debemos repasar algunos métodos sobre los arrays para facilitar la operción de colecciones de datos.
+## Los clásicos
 
-## Arrays _como colecciones_:
+**NO** los emplearemos.
 
-Métodos:
-+ Como una pila:
-    + Meter al final: `push()`
-    + Sacar del final: `pop()`
-+ Como una lista:
-    + Meter al final
-    + Sacar del principio: `shift()`
-+ Como una cola:
-    + Meter al principio: `unshift()`
-    + Sacar del final: `pop()`
+## Los actuales
 
-[Ejemplo](06_arrays.js)
+**Obtener le primero**: `document.querySelector('{{selector css}}')`
 
-### Mapas:
+**Obtener una lista**: `document.querySelectorAll('{{selector css}}')`
 
-Están dispnibles desde ES6 pero no los veremos.
+### Selectores CSS
 
-Para su [consulta](https://www.arquitecturajava.com/javascript-map-es6-y-el-concepto-de-diccionario/) o en [mdn](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Map)
+Los `{{selector css}}` podrán ser, de menos a más específicos:
+1. Etiquetas: Los _tags_ `input`, `li` o `div`, por poner ejemplos.
+2. Grupos: Los _class_, como `.rojos`, `.importantes`, `.activos`.
+3. Id: Los _id_ `#elemento`.
 
+## Paso a paso
+[Índice](index.html)
