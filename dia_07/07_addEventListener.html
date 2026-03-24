@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Captura y volcado...</title>
+  <title>Eventos</title>
 </head>
 <body>
   <header>
-    <h1>Get Element...</h1>
-    <h2>Las capturas <em>actuales</em></h2>
-    <p><a href="04.html"> <= </a> | <a href="index.html">Índice</a> | <a href="../dia_07/index.html"> => </a></p>
-    <script src="06d_inyeccion_xss.js" defer></script>
+    <h1>Eventos</h1>
+    <h2>Asociando eventos</em></h2>
+    <p><a href="../dia06/05.html"> <= </a> | <a href="index.html">Índice</a> | <a href="../dia_07/index.html"> => </a></p>
+    <script src="07_eventos.js" defer></script>
   </header>
   <main>
     <h2>Captura de texto <b>SEGURA</b></h2>
@@ -18,12 +18,14 @@
     <form id="formulario">
         <label for="nombre">Nombre:</label><input type="text" id="nombre" /><br />
         <label for="apellidos">Apellidos:</label><input type="text" id="apellidos" /><br />
+        <input type="hidden" name="refresco" value="true" />
         <button id="boton">Mandar</button>
     </form>
+    <div>Pulsa la tecla "a" o la "b"</div>
   </main>
   <footer>
     <p><span id="errores" class="errores"></span></p>
-    <p id="status">Estado:</p>  
+    <p id="status">Estado: <b>¿porqué no ha funcionado?</b></p>  
   </footer>
 </body>
 </html>
