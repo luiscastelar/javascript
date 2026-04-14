@@ -10,24 +10,25 @@ const ERROR = document.querySelector("#errores");
 
 // 2. El procesado (las acciones)
 // fetch !!!
-const pedir = e => {
+const pedir = async e => {
     e.preventDefault();    
 
     // 2.1 fetch (la petición)
     //      obtiene devuelve una respuesta que se procesa en ".then()"
     //      o un error que se procesa en ".catch()"
-    fetch(URL.value).then( resp => {
+    const resp = await fetch(URL.value)
+        let json;
         // 2.2 then - Procesado de la respuesta
         STATUS.textContent = resp;
         if (resp.ok === true){
             // 2.3 if ok -> resp.json()
             console.log("La respuesta completa: ", resp);
-            return resp.json(); // devolvemos la carga útil
+            json = await resp.json(); // devolvemos la carga útil
         } else {
             // 2.4 if NO ok -> throw error (resp)
             throw {"resp": resp, "status": resp.status };
         }
-    }).then( json => {
+
         // 2.5 then json -> JSON.stringify(json) -> string
         // json es un objeto al que podemos acceder a sus atributos
         STATUS.textContent = JSON.stringify(json);
@@ -36,11 +37,7 @@ const pedir = e => {
             El saludo: ${json.saludo}
             El receptor: ${json.receptor}`
         );
-    }).catch( err => {
-        // 2.6 catch - Procesado de errores
-        console.error("Error:", err.status, err.resp);
-    });
-    console.log("Esto se ejecuta antes")
+    
 };
 
 
